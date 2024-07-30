@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Client;
+namespace App\Http\Controllers\Client\User;
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Client\DashboardController as FacebookData;

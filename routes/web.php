@@ -1,14 +1,14 @@
 <?php
 
-use App\Http\Controllers\Client\AuthController;
-use App\Http\Controllers\Client\AutoPostController;
-use App\Http\Controllers\Client\DashboardController;
-use App\Http\Controllers\Client\FacebookAccountController;
-use App\Http\Controllers\Client\GroupPostController;
-use App\Http\Controllers\Client\ManageScheduleController;
-use App\Http\Controllers\Client\ProfileController;
-use App\Http\Controllers\Client\ReminderController;
-use App\Http\Controllers\Client\SocialAuthController;
+use App\Http\Controllers\Client\User\AuthController;
+use App\Http\Controllers\Client\User\AutoPostController;
+use App\Http\Controllers\Client\User\DashboardController;
+use App\Http\Controllers\Client\User\FacebookAccountController;
+use App\Http\Controllers\Client\User\GroupPostController;
+use App\Http\Controllers\Client\User\ManageScheduleController;
+use App\Http\Controllers\Client\User\ProfileController;
+use App\Http\Controllers\Client\User\ReminderController;
+use App\Http\Controllers\Client\User\SocialAuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
