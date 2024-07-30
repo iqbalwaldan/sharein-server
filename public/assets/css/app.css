@@ -1,0 +1,82 @@
+:root {
+    --primary-base: #2652ff;
+    --primary-10: #d4dcff;
+    --primary-20: #b7c5ff;
+    --primary-30: #92a8ff;
+    --primary-40: #6e8cff;
+    --primary-50: #4a6fff;
+    --primary-60: #2044d4;
+    --primary-70: #1937aa;
+    --primary-80: #132980;
+    --primary-90: #0d1b55;
+    --primary-100: #081033;
+}
+
+.sweet_titleImportant {
+    color: #101828 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+}
+
+.sweet_textImportant {
+    color: #667085 !important;
+    margin: auto !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    max-width: 352px;
+    padding: 0 !important;
+}
+
+.alert-btn {
+    color: #fff;
+    background-color: #2652ff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 352px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.alert-btn:focus {
+    outline: none; /* Menghapus outline saat focus */
+}
+
+.alert-btn-cancel {
+    color: #2652ff;
+    background-color: #d4dcff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+    margin-right: 12px;
+}
+.alert-btn-dialog {
+    color: #fff;
+    background-color: #2652ff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.max-width {
+    max-width: 100px !important; /* Sesuaikan dengan lebar maksimum yang Anda inginkan */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div:where(.swal2-container) div:where(.swal2-loader) {
+    /* width: 25em !important; */
+    width: 5em !important;
+    height: 5em !important;
+    border-color: #fff rgba(0, 0, 0, 0) #fff rgba(0, 0, 0, 0) !important;
+}
+
+.sweet_popupImportantLoading {
+    width: 25em !important;
+    background-color: transparent !important;
+}
