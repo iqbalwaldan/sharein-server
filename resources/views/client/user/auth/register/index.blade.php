@@ -41,7 +41,7 @@
                 <p class="text-sm 2xl:text-base font-light text-neutral-70">
                     Welcome back! Please enter your details
                 </p>
-                <form method="POST" action="{{ route('user.registerPost') }}">
+                <form method="POST" action="/register">
                     @csrf
                     <div class="w-full md:flex flex-row space-x-2 md:justify-between">
                         <div class="w-1/2 flex flex-col mt-3 2xl:mt-6">
