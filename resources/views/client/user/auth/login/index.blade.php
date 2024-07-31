@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <form action="{{ route('user.loginPost') }}" method="POST">
+    {{-- <form action="{{ route('user.loginPost') }}" method="POST"> --}}
+    <form action="/login" method="POST">
         @csrf
         <input type="text" name="email" placeholder="Email">
         <input type="password" name="password" placeholder="Password">
